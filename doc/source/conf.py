@@ -49,8 +49,6 @@ source_suffix = '.rst'
 # The master toctree document.
 master_doc = 'index'
 
-scv_root_ref = 'gh-pages'
-
 # General information about the project.
 project = u'clmdoc'
 copyright = u'2017, Erik Kluzek, Bill Sacks, Ben Andre'
@@ -79,6 +77,8 @@ exclude_patterns = []
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
+
+scv_root_ref = 'gh-pages'
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
